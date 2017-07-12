@@ -4,6 +4,7 @@
   "description": "Stanford Javascript Crypto Library",
   "main": "sjcl.js",
   "author": "bitwiseshiftleft",
+  "typings": "sjcl.d.ts",
   "keywords": [
     "encryption",
     "high-level",
