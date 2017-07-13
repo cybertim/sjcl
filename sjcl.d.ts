@@ -60,6 +60,15 @@ declare module 'sjcl' {
             export function toBits(value: string): BitArray;
         }
 
+        module base32hex {
+            export function fromBits(bits: BitArray): string;
+            export function toBits(value: string): BitArray;
+        }
+        module base32 {
+            export function fromBits(bits: BitArray): string;
+            export function toBits(value: string): BitArray;
+        }
+
         /**
          * Base64 encoding/decoding.
          */
